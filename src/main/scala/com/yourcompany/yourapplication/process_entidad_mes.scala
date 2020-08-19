@@ -99,11 +99,11 @@ object process_entidad_mes {
       
       Control.NewStep("Asocia columnas de la tabla con nombres de campos de SQL")
       
-      huemulTable.periodo_mes.SetMapping("periodo_mes")
-      huemulTable.ejemplo_producto_id.SetMapping("ejemplo_producto_id")
-      huemulTable.fecha_venta.SetMapping("fecha_venta")
-      huemulTable.cantidad.SetMapping("cantidad")
-      huemulTable.precio.SetMapping("precio")
+      huemulTable.periodo_mes.setMapping("periodo_mes")
+      huemulTable.ejemplo_producto_id.setMapping("ejemplo_producto_id")
+      huemulTable.fecha_venta.setMapping("fecha_venta")
+      huemulTable.cantidad.setMapping("cantidad")
+      huemulTable.precio.setMapping("precio")
 
       // huemulTable.setApplyDistinct(false) //deshabilitar si DF tiene datos únicos, por default está habilitado      
       

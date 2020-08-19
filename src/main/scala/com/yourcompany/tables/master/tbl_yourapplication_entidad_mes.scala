@@ -3,7 +3,6 @@ package com.yourcompany.tables.master
 
 import com.huemulsolutions.bigdata.common._
 import com.huemulsolutions.bigdata.control._
-import com.huemulsolutions.bigdata.dataquality.huemulType_DQNotification
 import com.huemulsolutions.bigdata.tables._
 import org.apache.spark.sql.types._
 

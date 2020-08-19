@@ -41,7 +41,11 @@ object globalSettings {
 
    
    Global.HIVE_HourToUpdateMetadata =50
-   Global.CONTROL_Setting.append(new huemul_KeyValuePath("production",getKeyFromFile(s"${localPath}prod-setting-control-connection.set")))
+   Global.CONTROL_Setting.append(new huemul_KeyValuePath("production",getKeyFromFile(s"${localPath}prod-setting-control-connection.set"))
+     //from 2.6.1 --> add user and password excluded from connectionString
+     //.setUserName("userNameFromSecureSource")
+     //.setPassword("passwordFromSecureSource")
+   )
    Global.CONTROL_Setting.append(new huemul_KeyValuePath("experimental",getKeyFromFile(s"${localPath}exp-setting-control-connection.set")))
    
    Global.ImpalaEnabled = false
