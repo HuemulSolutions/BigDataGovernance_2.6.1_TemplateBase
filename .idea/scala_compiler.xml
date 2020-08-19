@@ -4,7 +4,7 @@
     <profile name="Maven 1" modules="yourapplication">
       <parameters>
         <parameter value="-dependencyfile" />
-        <parameter value="C:\Users\sebas\Documents\GitHub\BigDataGovernance_2.6_TemplateBase\target/.scala_dependencies" />
+        <parameter value="C:\Users\sebas\Documents\GitHub\BigDataGovernance_2.6.1_TemplateBase\target/.scala_dependencies" />
       </parameters>
     </profile>
   </component>
